@@ -21,19 +21,20 @@ print("")
 
 while True:
 
-    print("O Sao João é a festa da colheita do milho? 1 - Sim 2 - Não")
+    print("O Sao João é a festa da colheita do milho? 1 - Verdadeiro 2 - Falso")
     resposta = input()
-    if resposta == "sim" or resposta == "1":
+    if resposta == "V" or resposta == "1":
         pontos = pontos + 1
 
-    print("O são João é comemorado tradicionalmente no mes de junho? 1 - Sim 2 - Não")
+    print("O são João é comemorado tradicionalmente no mes de junho? 1 - Verdadeiro 2 - Falso")
     resposta = input()
-    if resposta == "sim" or resposta == "1":
+    if resposta == "V" or resposta == "1":
         pontos = pontos + 1
     
-    
-    
-    
+    print("O Carnaval é uma festa tipica do São João")
+    resposta = input()
+    if resposta == "F" or resposta == "2":
+        pontos = pontos + 1
     
     
     print("Parabens sua pontuação foi de: ", pontos)
