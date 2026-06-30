@@ -28,11 +28,12 @@ while True:
     resposta = input()
     if resposta == "V" or resposta == "1":
         pontos = pontos + 2
+
     else:
         pontos = pontos - 1
         
-        print("✅ Verdadeiro")
-        print("Explicação: A quadrilha é uma das principais atrações das festas juninas.")
+    print("✅ Verdadeiro")
+    print("Explicação: A quadrilha é uma das principais atrações das festas juninas.")
 
     print("O São João é comemorado tradicionalmente no mes de junho?")
     resposta = input()
@@ -41,8 +42,8 @@ while True:
     else:
         pontos = pontos - 1
 
-        print("✅ Verdadeiro")
-        print("Explicação: O São João faz parte das festas juninas realizadas em junho.")
+    print("✅ Verdadeiro")
+    print("Explicação: O São João faz parte das festas juninas realizadas em junho.")
 
     print("A fogueira junina surgiu originalmente para iluminar apresentações de quadrilha?")
     resposta = input()
@@ -51,8 +52,8 @@ while True:
     else:
         pontos = pontos - 1
 
-        print("❌ Falso")
-        print("Explicação: A tradição da fogueira está ligada a celebrações religiosas.")
+    print("❌ Falso")
+    print("Explicação: A tradição da fogueira está ligada a celebrações religiosas.")
 
     print("O milho é usado em várias comidas típicas do São João?")
     resposta = input()
@@ -61,8 +62,8 @@ while True:
     else:
         pontos = pontos - 1
 
-        print("✅ Verdadeiro")
-        print("Explicação: Pamonha, canjica e bolo de milho são exemplos.")
+    print("✅ Verdadeiro")
+    print("Explicação: Pamonha, canjica e bolo de milho são exemplos.")
 
 # PERGUNTAS MÉDIAS
     print("A Festa Junina brasileira teve origem exclusivamente no Brasil?")
@@ -72,8 +73,8 @@ while True:
     else:
         pontos = pontos - 2
 
-        print("❌ Falso")
-        print("Explicação: A tradição veio da Europa, especialmente de Portugal, e foi adaptada com elementos da cultura brasileira.")
+    print("❌ Falso")
+    print("Explicação: A tradição veio da Europa, especialmente de Portugal, e foi adaptada com elementos da cultura brasileira.")
     
     print("A canjica recebe o mesmo nome em todas as regiões do Brasil?")
     resposta = input()
@@ -82,8 +83,8 @@ while True:
     else:
         pontos = pontos - 2
 
-        print("❌ Falso")
-        print("Explicação: Dependendo da região, ela pode ser chamada de canjica ou mungunzá.")
+    print("❌ Falso")
+    print("Explicação: Dependendo da região, ela pode ser chamada de canjica ou mungunzá.")
     
     print("No Nordeste, é comum que as festas juninas sejam consideradas tão importantes quanto o Carnaval em algumas cidades?")
     resposta = input()
@@ -92,8 +93,8 @@ while True:
     else:
         pontos = pontos - 2
 
-        print("✅ Verdadeiro")
-        print("Explicação: Em muitas cidades nordestinas, como Caruaru e Campina Grande, o São João é a maior festa do ano.")
+    print("✅ Verdadeiro")
+    print("Explicação: Em muitas cidades nordestinas, como Caruaru e Campina Grande, o São João é a maior festa do ano.")
 
     print("Respeitar diferentes culturas e tradições contribui para uma convivência melhor entre as pessoas?")
     resposta = input()
@@ -102,8 +103,8 @@ while True:
     else:
         pontos = pontos - 2
 
-        print("✅ Verdadeiro")
-        print("Explicação: Valorizar a diversidade torna a sociedade mais acolhedora.")
+    print("✅ Verdadeiro")
+    print("Explicação: Valorizar a diversidade torna a sociedade mais acolhedora.")
 
 # PERGUNTAS DIFÍCEIS
 
@@ -114,8 +115,8 @@ while True:
     else:
         pontos = pontos - 3
 
-        print("✅ Verdadeiro")
-        print("Explicação: A cultura brasileira é resultado da mistura dessas influências.")
+    print("✅ Verdadeiro")
+    print("Explicação: A cultura brasileira é resultado da mistura dessas influências.")
     
     print("A quadrilha junina surgiu originalmente como uma dança criada no Nordeste brasileiro?")
     resposta = input()
@@ -124,8 +125,8 @@ while True:
     else:
         pontos = pontos - 3
         
-        print("❌ Falso ")
-        print("Explicação: Ela teve origem em danças de salão europeias e foi adaptada no Brasil.")
+    print("❌ Falso ")
+    print("Explicação: Ela teve origem em danças de salão europeias e foi adaptada no Brasil.")
 
     print("A tradição de acender fogueiras nas festas juninas está relacionada ao anúncio do nascimento de São João Batista?")
     resposta = input()
@@ -134,8 +135,8 @@ while True:
     else:
         pontos = pontos - 3
 
-        print("✅ Verdadeiro")
-        print("Explicação: Segundo a tradição cristã, Isabel teria acendido uma fogueira para avisar Maria sobre o nascimento de João Batista.")
+    print("✅ Verdadeiro")
+    print("Explicação: Segundo a tradição cristã, Isabel teria acendido uma fogueira para avisar Maria sobre o nascimento de João Batista.")
 
     print("Respeitar a diversidade significa concordar com todas as opiniões das outras pessoas?")
     resposta = input()
@@ -144,8 +145,8 @@ while True:
     else:
         pontos = pontos - 3
 
-        print("❌ Falso ")
-        print("Explicação: Respeitar a diversidade significa tratar as pessoas com dignidade, mesmo quando existem opiniões diferentes.")
+    print("❌ Falso ")
+    print("Explicação: Respeitar a diversidade significa tratar as pessoas com dignidade, mesmo quando existem opiniões diferentes.")
     
     print(f"Parabéns! Sua pontuação foi de:{pontos}")
     jogar_novamente = input("Quer ir de novo? ")
